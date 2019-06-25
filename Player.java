@@ -8,7 +8,7 @@ import java.util.*;
 //************************************************************************
 class Player
 {
-	private static final int RELOAD_AMOUNT = 100;
+    private static final int RELOAD_AMOUNT = 100;
     private int bet, money;
     private String name;
     private int betType, number;
@@ -20,9 +20,9 @@ class Player
     //=====================================================================
     public Player (String playerName, int initialMoney)
     {
-		name = playerName;
+	name = playerName;
       	money = initialMoney;
-   	} // constructor Player
+    } // constructor Player
 
 
     //=====================================================================
