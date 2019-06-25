@@ -18,11 +18,11 @@ class Wheel
     // private name constants -- internal use only
     private final static int MAX_POSITIONS = 12;		// number of positions on wheel
     private final static int NUMBER_PAYOFF = 10;		// payoff for number bet
-    private final static int COLOR_PAYOFF  = 2;		// payoff for color bet
+    private final static int COLOR_PAYOFF  = 2;		    // payoff for color bet
 
     // private variables -- internal use only
     private static int ballPosition;					// 00, 0, 1 .. 10
-    private static int color;						// GREEN, RED, OR BLACK
+    private static int color;						    // GREEN, RED, OR BLACK
 
 
     //=====================================================================
